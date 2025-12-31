@@ -8,8 +8,8 @@ pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', 25)
 
 # Read data from CSV files
-RawMovies = pd.read_csv(r"C:\Users\Asus\OneDrive\Documents\MRS\MRS-main\TMDB dataset\tmdb_5000_movies.csv")
-RawCredits = pd.read_csv(r"C:\Users\Asus\OneDrive\Documents\MRS\MRS-main\TMDB dataset\tmdb_5000_credits.csv")
+RawMovies = pd.read_csv(r"/Users/aysoni/Documents/Movie_Recomendation_System/Dataset/tmdb_5000_movies.csv")
+RawCredits = pd.read_csv(r"/Users/aysoni/Documents/Movie_Recomendation_System/Dataset/tmdb_5000_credits.csv")
 
 # Merge the dataframes on 'title' column
 MergeDF = pd.merge(RawMovies, RawCredits, on='title')

@@ -7,8 +7,8 @@ import pandas as pd  # CONTENT BASED RECOMMENDATION SYSTEM.
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_columns', 23)
 # import the datasets
-movies = pd.read_csv(r"C:\Users\Asus\OneDrive\Documents\MRS\MRS-main\TMDB dataset\tmdb_5000_movies.csv")
-credits = pd.read_csv(r"C:\Users\Asus\OneDrive\Documents\MRS\MRS-main\TMDB dataset\tmdb_5000_credits.csv")
+movies = pd.read_csv(r"Dataset/tmdb_5000_movies.csv")
+credits = pd.read_csv(r"Dataset/tmdb_5000_credits.csv")
 # print(movies.head(1))
 # print(credits.head(1).values)
 # print(credits.head(1)['crew'].values)
