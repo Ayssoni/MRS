@@ -1,1 +1,1 @@
-# Movie_Recomendation_System
+# MRS
