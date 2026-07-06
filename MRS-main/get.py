@@ -28,5 +28,5 @@ def get_recommendation(movie_name):
         print(f"- {MoviesDF.iloc[i[0]].title}")
 
 # Type your movie here
-my_choice = "Avatar" 
+my_choice = "kgf"
 get_recommendation(my_choice)

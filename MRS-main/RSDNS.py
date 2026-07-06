@@ -148,4 +148,4 @@ def RecommendMovies(movie):
         for i in movies_list:
             print(MoviesDF.iloc[i[0]].title)
 
-RecommendMovies('Salaar')
+RecommendMovies('kgf')
