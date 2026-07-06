@@ -13,7 +13,7 @@ from recommend import get_recommendation
 
 # ---------------------------------------------------------
 # PUT YOUR MOVIE NAME, GENRE, CAST MEMBER, OR DIRECTOR HERE
-MOVIE_NAME = "kgf"
+MOVIE_NAME = "lovelyrunner"
 # ---------------------------------------------------------
 
 get_recommendation(MOVIE_NAME)
